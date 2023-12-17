@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    background-color: rgb(147, 200, 230);
+    width: 100%;
+    height: 40px;
+}
+.head p{
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+    
+}
+.topnav{
+    background-color: rgb(220, 214, 133);
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+.topnav .logo h1{
+    position: absolute;
+    left: 20px;
+    top: 64px;
+    color: rgba(202, 140, 150, 0.826);
+    font-size: 43px;
+    letter-spacing: 4px;
+}
+.topnav a{
+    float: left;
+    text-decoration: none;
+    margin: 100px 0 0 0;
+    padding: 20px;
+    color: black;
+}
+.topnav a:hover{
+    color: rgb(103, 232, 103);
+    transition: ease-in;
+    transition-duration: 0.7s;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://static.wixstatic.com/media/c837a6_92e0451a84214884a2f4efe4226d6c2f~mv2.jpg/v1/fill/w_1895,h_1076,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_92e0451a84214884a2f4efe4226d6c2f~mv2.jpg);
+    
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.main h1{
+    font-size: 60px;
+    color: white;
+    padding-left: 90px;
+}
+.btn {
+    width:150px;
+	height: 40px;
+	background-color: #2f2e41;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+	margin-top: 20px;
+	color:#fff;
+	font-family: calibri;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+}
+.btn:hover{
+
+	color:#FFFFFF;
+	background-color: #6e64ff;
+	transition: all ease 0.5s;
+
+} 
+.but{
+    position: absolute;
+    top: 80%;
+    right: 80px;
+}
+.login{
+    position: absolute;
+    right: 303px;
+    top:-12px;
+    font-size: 20px;
+}
+#icn{
+    position: absolute;
+    top:12133px;
+}
+.ord{
+    position:absolute;
+    right: 12%;
+    top:20%;
+    padding-left: 3px;
+}
+#ord {
+    width:150px;
+	height: 40px;
+	background-color: #2f2e41;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+	margin-top: 20px;
+	color:#fff;
+	font-family: calibri;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+}
+#ord:hover{
+
+	color:#FFFFFF;
+	background-color: #6e64ff;
+	transition: all ease 0.5s;
+
+} 
